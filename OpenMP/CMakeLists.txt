@@ -12,7 +12,7 @@ add_executable(OpenMpTasks
         src/com.github.hronosf/3/IntergalValueTask.cpp
         src/com.github.hronosf/4/MaxMinMatrixValue.cpp
         src/com.github.hronosf/6/ReductionTask.cpp
-        src/com.github.hronosf/OpenMPTask.hpp src/com.github.hronosf/MpiTest.cpp)
+        src/com.github.hronosf/OpenMPTask.hpp)
 
 
 target_link_libraries(OpenMpTasks PUBLIC OpenMP::OpenMP_CXX)
