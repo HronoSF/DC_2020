@@ -1,2 +1,2 @@
 #!/bin/sh
-mpicc VectorDotProduct.cpp -o VectorDotProduct
+mpic++ VectorDotProduct.cpp -o VectorDotProduct

@@ -1,2 +1,2 @@
 #!/bin/sh
-mpirun VectorDotProduct 1 1000
+mpirun VectorDotProduct 1 100000

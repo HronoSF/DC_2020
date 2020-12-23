@@ -1,2 +1,2 @@
 #!/bin/sh
-mpirun VectorMaxValue 1 1000
+mpirun VectorMaxValue 1 100000

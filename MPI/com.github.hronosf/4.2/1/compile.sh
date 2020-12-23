@@ -1,2 +1,2 @@
 #!/bin/sh
-mpicc VectorMaxValue.cpp -o VectorMaxValue
+mpic++ VectorMaxValue.cpp -o VectorMaxValue
