@@ -41,8 +41,8 @@ int main(int argc, char *argv[]) {
 
     int sub_start;  // Start of one of the sub-vector
     int sub_len;  // Length of sub-vector
-    double *a = (double *) calloc(array_len, sizeof(double));  // The vector to search max
-    double *b = (double *) calloc(array_len, sizeof(double));  // The vector to search max
+    double *a = new double[array_len];  // The vector to search max
+    double *b = new double[array_len];  // The vector to search max
     double my_sum; // Max for sub-vector
     double global_sum; // Maximum for the main vector
     double local_sum; // Local sum from one process
